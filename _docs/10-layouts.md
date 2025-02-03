@@ -11,7 +11,6 @@ last_modified_at: 2020-08-30T21:27:40-04:00
 toc: true
 toc_label: "Included Layouts"
 toc_icon: "columns"
-classes: wide
 
 ---
 
