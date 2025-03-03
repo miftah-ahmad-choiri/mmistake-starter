@@ -60,7 +60,7 @@ And then create portfolio content like [`_portfolio/foo-bar-website.md`](https:/
 
 
 <!-- Scroll to Top Button -->
-<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top↑</button>
+<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">![Go to Top](image.png)</button>
 
 <style>
   /* Style for the button */
@@ -76,7 +76,7 @@ And then create portfolio content like [`_portfolio/foo-bar-website.md`](https:/
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
-    border-radius: 25px; /* Rounded corners */
+    border-radius: 10px; /* Rounded corners */
     font-size: 15px; /* Increase font size */
   }
   #scrollToTopBtn:hover {
