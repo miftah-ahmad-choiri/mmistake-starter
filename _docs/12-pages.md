@@ -42,10 +42,12 @@ defaults:
       author_profile: true
 ```
 
-Test  below 
+Test2 
 
 <!-- Scroll to Top Button -->
-<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top</button>
+<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+  &#8679;
+</button>
 
 <style>
   /* Style for the button */
@@ -60,9 +62,13 @@ Test  below
     background-color: #555; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    font-size: 24px; /* Increase font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #scrollToTopBtn:hover {
     background-color: #333; /* Darker background on hover */
@@ -74,7 +80,7 @@ Test  below
   window.onscroll = function() {
     let btn = document.getElementById("scrollToTopBtn");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      btn.style.display = "block";
+      btn.style.display = "flex";
     } else {
       btn.style.display = "none";
     }
