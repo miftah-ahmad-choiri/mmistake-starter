@@ -77,7 +77,7 @@ And then create portfolio content like [`_portfolio/foo-bar-website.md`](https:/
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 30px; /* Rounded corners */
-    font-size: 30px; /* Increase font size */
+    font-size: 18px; /* Increase font size */
   }
   #scrollToTopBtn:hover {
     background-color: #333; /* Darker background on hover */
