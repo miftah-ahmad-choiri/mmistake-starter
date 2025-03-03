@@ -60,7 +60,7 @@ And then create portfolio content like [`_portfolio/foo-bar-website.md`](https:/
 
 
 <!-- Scroll to Top Button -->
-<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">![Go to Top](image.png)</button>
+<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">⏫</button>
 
 <style>
   /* Style for the button */
