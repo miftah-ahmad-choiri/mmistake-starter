@@ -42,7 +42,7 @@ defaults:
       author_profile: true
 ```
 
-Test  below 
+Test below 
 
 <!-- Scroll to Top Button -->
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">🔝</button>
